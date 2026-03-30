@@ -1,75 +1,58 @@
-# Portfolio Website
+# 🚀 Portfolio Website
 
-A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS.
+A modern, responsive personal portfolio website built using **React**, **TypeScript**, and **Tailwind CSS**.
+This portfolio showcases my projects, skills, education, and contact information in a clean and professional layout.
 
-## Getting Started
+🌐 **Live Demo:**
+**https://navin-dev-portfolio.vercel.app**
 
-### Local Development
+---
 
-1. Clone the repository:
-```bash
-git clone https://github.com/naveenc-04/portfolio-n.git
-cd portfolio-n
+## 🛠️ Technologies Used
+
+* **React 18** – Frontend framework
+* **TypeScript** – Strongly typed JavaScript
+* **Tailwind CSS** – Utility-first CSS framework
+* **Vite** – Fast build tool
+* **Lucide React** – Icon library
+
+---
+
+## ⭐ Features
+
+* Fully responsive design
+* Modern UI using Tailwind CSS
+* Fast performance using Vite
+* Type-safe development with TypeScript
+* Clean and modular component structure
+
+---
+
+## 📂 Project Structure
+
+```
+portfolio-n/
+│
+├── public/              # Static assets
+├── src/
+│   ├── components/      # Portfolio sections
+│   ├── App.tsx          # Main application
+│   ├── main.tsx         # Entry point
+│
+├── index.html
+├── tailwind.config.js
+├── vite.config.ts
+├── package.json
 ```
 
-2. Install dependencies:
-```bash
-npm install
-```
+---
 
-3. Run the development server:
-```bash
-npm run dev
-```
+## 🚀 Deployment
 
-4. Build for production:
-```bash
-npm run build
-```
+This portfolio website is deployed using **Vercel**, ensuring fast performance and reliable hosting.
 
-## Deployment Options
+---
 
-You can deploy this portfolio to any of these platforms:
+## 📄 License
 
-### Vercel (Recommended)
-- Most optimized for Vite/React projects
-- [Deploy with Vercel](https://vercel.com/new)
-- Connect your GitHub repo and deploy with one click
-
-### Netlify
-```bash
-npm install -g netlify-cli
-netlify deploy --prod --dir=dist
-```
-
-### GitHub Pages
-```bash
-npm run build
-# Push the dist folder to your gh-pages branch
-```
-
-### Railway
-- Connect your GitHub repo at [railway.app](https://railway.app)
-- Set build command: `npm run build`
-- Set start command: `npm run preview`
-
-### Other Platforms
-- AWS Amplify
-- Firebase Hosting
-- Cloudflare Pages
-- Any static hosting service
-
-## Project Structure
-
-- `src/components/` - All portfolio sections
-- `src/App.tsx` - Main application
-- `tailwind.config.js` - Tailwind CSS configuration
-- `vite.config.ts` - Vite configuration
-
-## Technologies Used
-
-- React 18
-- TypeScript
-- Tailwind CSS
-- Vite
-- Lucide React Icons
+This project is open-source and available under the **MIT License**.
